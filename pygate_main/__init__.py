@@ -14,7 +14,7 @@ __status__ = "Prototype"  # "Development", or "Production"
 import logging
 logger = logging.getLogger('main')
 
-from core import cloud, modules
+from pygate_core import cloud, modules
 
 _moduleName = None
 refreshGatewayId = '1'
